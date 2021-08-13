@@ -1,0 +1,42 @@
+Listei os comandos na ordem em que foram utilizados para que seja de auxílio a quem precisar.
+Todo conteúdo entre < e > deve ser modificado inserindo dados do prórpio usuário.
+Onde houver " ", é porque ela se faz necessária.
+
+
+
+
+git init = iniciar o trabalho;
+
+git config --global user.name <"nome"> = Setar seu nome nos commits que serão feitos;
+git config --global user.email <"email"> = Setar seu email nos commits que serão feitos;
+
+git remote add origin <https://github.com/adrianlouis/versionamento-atividade.git> = Apontar o link https do repositório remoto no github;
+
+
+
+Após criar os arquivos necessários em seu pc, salve-os para ser feito o processo de upload para seu repositório remoto:
+
+git add . = Adicionar ao Staging, os arquivos que necessitam ester no rep remoto. Observe que o git add . irá adicionar 
+todos eles e o seu próximo comentário do commit estará em todos os arquivos;
+
+git commit -m "Arquivos criados" = Fazer o commit dos arquivos que estão no Staging e comentar algo entre " ".
+Este comentário estará em todos os arquivos do Commit;
+
+git push origin master = Upload dos arquivos que estavam no repositório local (pc) para o repositório remoto (github);
+
+
+
+Criação das Branches:
+
+git branch -M <nome da branch> = Criar uma Branch e o -M te levará diretamente para ela;
+caso queira mudar de uma branch para outra, use o comando git checkout <branch>;
+
+git push origin <nome da branch que foi criada> = Upar a branch criada para o repositório remoto;
+
+git add . = Adicionar ao Staging, as modificações feitas no arquivo que está na branch;
+
+git commit -m <"comentário"> = Fazer o commit e o comentário do arquivo editado na branch;
+
+git push origin <branch> = Fazer o upload do arquivo editado na branch, para a própria branch no github;
+
+
