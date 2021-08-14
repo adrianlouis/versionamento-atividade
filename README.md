@@ -1,12 +1,19 @@
 ATIVIDADE DE VERSIONAMENTO
 
-Esta atividade será feita de forma minimalista, onde será criado
-um repertório remoto com um arquivo .gitignore, um readme.md explicativo
-e um arquivo "cores.txt".
+Alunos de Programação Full Stack:
+Adriano Soares
+Leandro Madureira
 
-Nosso intuito será, cada um criar uma branch a partir do trunk "master",
-cada um irá abrir o arquivo "cores.txt" e adicionar 5 cores.
 
-O Leandro optou por realizar o Merge entre nossas Branches e depois
-o arquivo editado com a lista de 10 cores no total, será upada ao
-repositório remoto.
+A atividade proposta, foi criarmos um documento no repertório remoto chamado "cores.txt" e
+um chamado "paises.txt"
+Cada arquivo deste possuia linhas enumeradas de 1 a 10.
+
+Cada aluno criou um branch, um escreveu nome de cores de 1 a 5 e o outro em sua própria branch
+escreveu o nome de cores de 6 a 10.
+O mesmo foi feito com o arquivo países, mas claro, escrevendo desta vez nome de países.
+
+Um aluno fez Merge entre as branches relativa a cores e o outro fez Merge entre as branches
+relativa a países.
+
+Os arquivos completos foram deixados na trunk master do repositório remoto.
